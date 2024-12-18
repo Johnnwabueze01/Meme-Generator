@@ -66,14 +66,20 @@ main {
 }
 
 .meme {
+    display: flex;
+    justify-content: center;
     position: relative;
     width: 100%;
     background: linear-gradient(90.41deg, #0a0a0a 1.14%, #2f2c30 100%);
 }
 
 .meme-image {
-    max-width: 100%;
     border-radius: 3px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    width: 80%;
 }
 
 .meme-text {
@@ -87,7 +93,7 @@ main {
     font-family: impact, sans-serif;
     font-size: 2em;
     text-transform: uppercase;
-    color: white;
+    color: #cac2c2;
     letter-spacing: 1px;
     text-shadow:
         2px 2px 0 #000,
